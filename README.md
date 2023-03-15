@@ -26,16 +26,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 HelloWorld Rails with React <a name="about-project"></a>
+# 📖 Hello React Front End <a name="about-project"></a>
 
 
-**HelloWorld Rails with React** Is an application where Rails connects to React using Webpack with jsbundling-rails gem
+**Hello React Front End** Is the front end part of this project, that fetch information from the [hello-rails-back](https://github.com/gandradep/hello_rails_back) repository.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-In these apps we implement the devise gem to authenticate the user and you can have your recipes securely saved.
+In these app we user react, redux and redux toolkit to create routes, components and a reducer.
 
 <details>
   <summary>Client</summary>
@@ -45,26 +45,10 @@ In these apps we implement the devise gem to authenticate the user and you can h
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://ruby-lang.com/">Ruby</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-
-- **Use rails Api**
 - **Use redux to fetch Api**
 - **Use react for frontend**
 
@@ -87,16 +71,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: Rails and postgres install on your local computer.
-
-
-```sh
-  $ gem install rails
-
- #postgres for ubuntu:
-  $ sudo apt update
-  $ sudo apt install postgresql postgresql-contrib
-```
+In order to run this project you need: React in your local machine.
 
 
 ### Setup
@@ -105,19 +80,15 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  https://github.com/gandradep/budget_app.git
+ git clone https://github.com/gandradep/hello-react-front-end.git
 ```
 
 
 ### Install
 
-Install this project with:
-
-
-
+Install this project modules with:
 
 ```sh
-  $ bundle install
   $ npm install
 ```
 
@@ -127,8 +98,9 @@ To run the project, execute the following command:
 
 
 ```sh
-  $ ./bin/dev
+  $ npm start
 ```
+Don't forget to run the server of the api repo.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -141,13 +113,12 @@ To run the project, execute the following command:
 - Twitter: [@leribagandrade](https://twitter.com/leribagandrade)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gabriel-andrade-silla-turca)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Deploy live**
+- [ ] **Create more routes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +130,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- SUPPORT -->
 
@@ -175,7 +146,7 @@ If you like this project do not forget to start the repository.
 
 - [Microverse](https://www.microverse.org/) for giving this project guides.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
